@@ -6,7 +6,12 @@ const style = {
   textDecoration: 'underline',
 }
 
-const ActiveLink = ( { text, href } ) => {
+interface ActiveLinkProps {
+  text: string
+  href: string
+}
+
+const ActiveLink = ( { text, href }: ActiveLinkProps ) => {
 
   const { asPath } = useRouter()
 
