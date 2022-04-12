@@ -15,7 +15,7 @@ const About = () => {
 
 export default About
 
-About.getLayout = (page) => {
+About.getLayout = (page: JSX.Element | JSX.Element[]) => {
   return (
     <MainLayout>
       <DarkLayout>

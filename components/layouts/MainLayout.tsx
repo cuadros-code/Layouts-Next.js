@@ -2,7 +2,7 @@ import NavBar from "../NavBar"
 import Head from 'next/head'
 import styles from "./Layout.module.css"
 
-const MainLayout = ( { children }:{ children: JSX.Element } ) => {
+const MainLayout = ( { children }:{ children: JSX.Element | JSX.Element[] } ) => {
   return (
     <>
     <div className={styles.container}>

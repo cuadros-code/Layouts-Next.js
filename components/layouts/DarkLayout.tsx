@@ -1,6 +1,6 @@
 
 
-const DarkLayout = ({children} : { children: JSX.Element }) => {
+const DarkLayout = ({children} : { children: JSX.Element | JSX.Element[] }) => {
   return (
     <div style={{
       backgroundColor: 'rgba(0, 0, 0, 0.3)',

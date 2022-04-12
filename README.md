@@ -35,3 +35,8 @@ About.getLayout = (page) => {
 }
 ```
 
+## Docker
+
+1- Crear archivo .dockerignore
+
+1- Crear archivo Dockerfile

@@ -14,7 +14,7 @@ const Pricing = () => {
 
 export default Pricing
 
-Pricing.getLayout = (page: JSX.Element) => {
+Pricing.getLayout = (page: JSX.Element | JSX.Element[]) => {
   return (
     <MainLayout>
         {page}
